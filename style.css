@@ -4,10 +4,19 @@
   padding: 0;
 }
 
+#btn {
+  margin: 10px auto;
+  display: block;
+  padding: 5px 15px;
+  background-color: rgb(40, 87, 114);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
 .container {
   width: 960px;
   display: flex;
-
   flex-wrap: wrap;
   margin: 20px auto;
 }
@@ -15,4 +24,8 @@
 .grid-item {
   background-color: bisque;
   border: 1px solid black;
+}
+
+.draw {
+  background-color: #000;
 }
