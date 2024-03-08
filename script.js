@@ -1,5 +1,3 @@
-// set a hover effect so the divs change color when mouse passes over them, leaving a pixelated trail through the grid (add a new class to the div which will change its background)
-
 const containerEl = document.querySelector('.container');
 const btn = document.querySelector('#btn');
 const gridItems = document.querySelectorAll('.grid-item');
